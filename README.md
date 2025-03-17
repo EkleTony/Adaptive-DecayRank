@@ -6,20 +6,14 @@
 ## Overview
 **Adaptive-DecayRank** is a novel anomaly detection framework for **real-time anomaly detection in dynamic graphs**. It leverages **Bayesian PageRank updates** with an **adaptive decay factor** to efficiently detect **node anomalies and sudden structural changes**.
 
-This repository contains:
-- **Python implementation** of Adaptive-DecayRank.
-- **Benchmark datasets** (DARPA, CTU-13, RTM-30).
-- **Precision-Recall results** and **scalability analysis**.
-
 ## Features
 ✔ Real-time anomaly detection on **dynamic graph streams**.  
-✔ **Adaptive Bayesian updating** for improved accuracy.  
-✔ Efficient **graph sketching** for scalability.  
+✔ **Modified dynamic PageRank algorithm** for improved detection accuracy.  
+✔ Efficient **Adaptive Bayesian Updating** for scalability.  
 ✔ Outperforms **AnomRank, MIDAS-R, DynAnom**, etc.
 
 ## Dataset
 We provide the following benchmark datasets for dynamic graph anomaly detection:
-
 - DARPA – Cyber attack dataset
 - CTU-13 – Botnet traffic dataset
 - RTM-30 – Synthetic anomaly dataset
