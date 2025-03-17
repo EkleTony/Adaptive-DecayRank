@@ -10,7 +10,7 @@
 ✔ Real-time anomaly detection on **dynamic graph streams**.  
 ✔ **Modified dynamic PageRank algorithm** for improved detection accuracy.  
 ✔ Efficient **Adaptive Bayesian Updating** for scalability.  
-✔ Outperforms **AnomRank, MIDAS-R, DynAnom**, etc.
+✔ Outperforms **AnomRank, SedanSpot, DynAnom**, etc.
 
 ## Dataset
 We provide the following benchmark datasets for dynamic graph anomaly detection:
