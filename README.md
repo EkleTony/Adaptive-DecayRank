@@ -15,7 +15,8 @@
 ## Dataset
 We provide the following benchmark datasets for dynamic graph anomaly detection:
 - DARPA – Cyber attack dataset
-- CTU-13 – Botnet traffic dataset
+- CTU-13 – Botnet traffic dataset - **[CTU-13 dataset](https://www.stratosphereips.org/datasets-ctu13)**  
+
 - RTM-30 – Synthetic anomaly dataset
 ### Dataset Preparation
 1. Download & Unzip the datasets.
