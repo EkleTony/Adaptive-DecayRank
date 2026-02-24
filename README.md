@@ -1,16 +1,34 @@
-
 # Adaptive-DecayRank: Real-Time Anomaly Detection in Dynamic Graphs
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## Overview
+
 **Adaptive-DecayRank** is a novel anomaly detection framework for **real-time anomaly detection in dynamic graphs**. It leverages **Bayesian PageRank updates** with an **adaptive decay factor** to efficiently detect **node anomalies and sudden structural changes**.
 
+📄 Published in *Applied Sciences (MDPI)*:  
+https://www.mdpi.com/2076-3417/15/6/3360
+
+---
+
+## Adaptive-DecayRank Framework
+
+![Adaptive-DecayRank Framework](adaptive_decayrank_framework.svg)
+
+*Figure 1: Adaptive-DecayRank framework. The pipeline consists of (1) Graph Input and Snapshot Generation, (2) Dynamic Node Scoring, (3) Adaptive Bayesian Updating of decay factors, and (4) Normalization and Real-Time Anomaly Detection.*
+
+The **Adaptive-DecayRank** framework begins by transforming dynamic graph input into timestamp-based snapshots, which form the foundation for node score computation. The algorithm then iteratively updates node scores while dynamically adjusting the decay factor through Bayesian inference. This adaptive mechanism ensures sensitivity to structural changes in evolving graphs, enabling rapid detection of anomalous behavior.
+
+Finally, normalized anomaly detection metrics are applied to identify nodes exhibiting significant deviations over time. The framework integrates real-time updates, adaptive decay mechanisms, and robust anomaly scoring tailored for dynamic graph environments.
+
+---
+
 ## Features
-✔ Real-time anomaly detection on **dynamic graph streams**.  
-✔ **Modified dynamic PageRank algorithm** for improved detection accuracy.  
-✔ Efficient **Adaptive Bayesian Updating** for scalability.  
-✔ Outperforms **AnomRank, SedanSpot, DynAnom**, etc.
+
+✔ Real-time anomaly detection on **dynamic graph streams**  
+✔ Modified **Dynamic PageRank algorithm** for improved detection accuracy  
+✔ Efficient **Adaptive Bayesian Updating** for scalability  
+✔ Demonstrated improvements over **AnomRank, SedanSpot, DynAnom**, and related baselines
 
 ## Dataset
 We provide the following benchmark datasets for dynamic graph anomaly detection:
